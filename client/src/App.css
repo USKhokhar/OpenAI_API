@@ -43,7 +43,7 @@ form {
 #input {
     width: 100%;
     font: normal 400 1rem/1rem sans-serif;
-    padding: 0.5rem 0 0 0.7rem;
+    padding: 1rem 0.5rem;
     position: relative;
     background: var(--blue-x);
     border: none;
@@ -67,9 +67,23 @@ form button {
     transition: 150ms;
 
     position: absolute;
-    right: 0.5rem;
+    right: 0.2rem;
 }
 
 form button:hover {
     background: var(--blue-x);
+}
+
+.human {
+    background: var(--blue-x);
+    padding: 0.5rem 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.human p {
+    font: normal 300 1.2rem/1.2rem var(--primary);
+    color: var(--gray);
 }
